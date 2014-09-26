@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80.0dip"
+        android:background="@drawable/list_item_bg"
+        android:gravity="center_vertical"
+        android:paddingBottom="5.0dip"
+        android:paddingTop="5.0dip" >
+
+        <TextView
+            android:id="@id/device_icon"
+            android:layout_width="65.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="-15.0dip"
+            android:background="@drawable/yadevice" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-5.0dip"
+            android:layout_weight="1.0"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/device_bm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/airdevice"
+                android:textColor="@color/color_black"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:id="@id/device_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5.0dip"
+                android:textColor="@color/color_blue"
+                android:textSize="14.0sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/eair"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:gravity="center_vertical"
+            android:text="@string/air"
+            android:textColor="@color/color_blue"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:id="@id/device_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:layout_weight="0.0"
+            android:drawableRight="@drawable/right"
+            android:gravity="center_vertical"
+            android:textColor="@color/color_green"
+            android:textSize="14.0sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0px"
+        android:background="#47AEB7" />
+
+</LinearLayout>

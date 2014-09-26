@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:padding="20.0dip">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:gravity="center_horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deviceManage"
+            android:textColor="#47AEB7"
+            android:textStyle="bold" 
+            android:textSize="20.0sp" />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2.0px"
+        android:background="#47AEB7" />
+
+    <ListView
+        android:id="@id/deviceList"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="4" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@id/add_device_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="45.0dip"
+        android:layout_weight="1"
+        android:background="#ffffffff"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:drawablePadding="10.0dip"
+            android:drawableRight="@drawable/right"
+            android:gravity="center_vertical"
+            android:text="@string/add_device"
+            android:textColor="#47AEB7"
+            android:textSize="21.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

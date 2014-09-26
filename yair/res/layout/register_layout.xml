@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@id/regback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-6dip"
+                android:layout_marginTop="-2dip"
+                android:background="@drawable/left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="85dip"
+                android:text="@string/register"
+                android:textColor="#47AEB7"
+                android:textStyle="bold" 
+                android:textSize="20.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:background="#47AEB7" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20.0px" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/user_name"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@id/user_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/user_name_hint"
+                android:inputType="textEmailAddress"
+                android:maxLength="12"
+                android:singleLine="true"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#47AEB7" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/password"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@id/password"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/password_hint"
+                android:inputType="textPassword"
+                android:maxLength="12"
+                android:singleLine="true"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#47AEB7" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/comfim_password"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@id/confim_password"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/password_hint_agin"
+                android:inputType="textPassword"
+                android:maxLength="12"
+                android:singleLine="true"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#47AEB7" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/phone_num"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@id/phone_num"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/phone_num_hint"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:singleLine="true"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#47AEB7" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/email"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@id/email"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/email_hint"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#47AEB7" />
+    </LinearLayout>
+
+    <Button
+        android:id="@id/btn_Register"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15.0dip"
+        android:background="@drawable/btn_selector"
+        android:text="@string/register"
+        android:textColor="#ffffffff"
+        android:textSize="21.0sp" />
+
+</LinearLayout>

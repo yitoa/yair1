@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/color_white"
+    android:padding="20.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@id/renameback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-6dip"
+                android:layout_marginTop="-2dip"
+                android:background="@drawable/left" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dip"
+                android:text="@string/edit_name"
+                android:textColor="#47AEB7"
+                android:textStyle="bold" 
+                android:textSize="20.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:background="#47AEB7" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="20.0px" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/upload_device"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@id/device_name"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/airdevice"
+                android:inputType="text"
+                android:maxLength="8"
+                android:singleLine="true"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#47AEB7" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:text="@string/qr_info"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+
+            <EditText
+                android:id="@id/device_code"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="5.0dip"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:inputType="text"
+                android:focusable="false"
+                android:maxLength="16"
+                android:singleLine="true"
+                android:textColor="@color/color_black"
+                android:textSize="16.0sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1.0px"
+            android:background="#47AEB7" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@id/btn_OK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60.0dip"
+        android:background="@drawable/btn_selector"
+        android:text="@string/yes"
+        android:textColor="#ffffffff"
+        android:textSize="21.0sp" />
+
+</LinearLayout>

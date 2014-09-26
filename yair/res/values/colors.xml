@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_black">#ff333333</color>
+    <color name="color_green">#ff13b35c</color>
+    <color name="color_gray">#ff999999</color>
+    <color name="color_air_bad">#ffff7278</color>
+    <color name="color_air_normal">#ffae47ff</color>
+    <color name="color_air_good">#ff4eb7ff</color>
+    <color name="color_air_best">#ff5aad0c</color>
+    <color name="color_standby">#ff3b4a59</color>
+    <color name="green_360">#ff5fb900</color>
+    <color name="color_filter_text">#ff5aad0c</color>
+    <color name="color_filter_warn_text">#ffff555c</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_blue">#35B3BF</color>
+    <color name="coler_hlblue">#33CCFF</color>
+    <color name="color_fontblue">#00AEF0</color>
+    <color name="color_fonth">#C2C2C2</color>
+</resources>
