@@ -24,23 +24,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-         <activity
+        <activity
             android:name=".activity.AddDeviceActivity"
             android:configChanges="keyboardHidden|navigation|orientation"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar"
-            android:windowSoftInputMode="stateHidden">
+            android:windowSoftInputMode="stateHidden" >
         </activity>
-        
         <activity
             android:name=".activity.OpenActivity"
             android:configChanges="keyboardHidden|navigation|orientation"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar"
-            android:windowSoftInputMode="stateHidden">
+            android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
             android:name=".activity.YADeviceHomePageActivity"
@@ -70,21 +68,21 @@
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar"
             android:windowSoftInputMode="stateHidden" />
-       	<activity
+        <activity
             android:name=".activity.RegisterActivity"
             android:configChanges="keyboardHidden|navigation|orientation"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar"
             android:windowSoftInputMode="stateHidden" />
-       	<activity
+        <activity
             android:name=".activity.RenameActivity"
             android:configChanges="keyboardHidden|navigation|orientation"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.Light.NoTitleBar"
             android:windowSoftInputMode="stateHidden" />
-       	       	
+
         <!--
         <activity android:theme="@android:style/Theme.Black.NoTitleBar" android:name=".activity.DeviceHomePageActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|navigation|orientation" android:windowSoftInputMode="stateHidden" />
         <activity android:theme="@android:style/Theme.Black.NoTitleBar" android:name=".activity.LoginActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|navigation|orientation" android:windowSoftInputMode="stateHidden" />
@@ -96,7 +94,7 @@
         <activity android:theme="@android:style/Theme.Black.NoTitleBar" android:name=".activity.QRCaptureActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|navigation|orientation" android:windowSoftInputMode="stateHidden" />
         <activity android:theme="@android:style/Theme.Black.NoTitleBar" android:name=".activity.RegisterActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|navigation|orientation" android:windowSoftInputMode="stateHidden" />
         <activity android:theme="@android:style/Theme.Black.NoTitleBar" android:name=".activity.UploadDeviceActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="keyboardHidden|navigation|orientation" android:windowSoftInputMode="stateHidden" />
-        <activity android:theme="@android:style/Theme.Black.NoTitleBar" android:name=".activity.WebActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|navigation|orientation" android:windowSoftInputMode="stateHidden" />
+        <activity android:theme="@android:style/Theme.Black.NoTitleBar" android:name=".activity.WebActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|navigation|orientation" android:windowSoftInputMode="stateHidden" />
         -->
     </application>
 
